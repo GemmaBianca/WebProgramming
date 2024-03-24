@@ -1,0 +1,337 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+@media (max-width: 500px) {
+    body {
+      font-size: 14px;
+    }
+}
+header {
+    background-size: cover;
+    background-position: center;
+    height: 108px;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0px 50px;
+    font-size: 20px;
+    background-color: #333333;
+    color: white;
+    border-color: #ebebeb;
+    display: flex;
+}
+header nav{
+    display: flex;
+    position: absolute;
+    font-size: 14px;
+    padding: 20px;
+    justify-content: space-between;
+    float: right;
+}
+#menu {
+    display: none;
+}
+#menu div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+@media (max-width: 500px) {
+    #link {
+      display: none;
+    }
+    #menu {
+        display: block;
+    }
+}
+#link a {
+    color: #969696;
+    margin: 15px;
+}
+footer {
+    font-size: 20px;
+    background-color: #333333;
+    color: white;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer span{
+    width: 300px;
+    float: left;
+}
+footer a{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 15px;
+    line-height: 20px;
+}
+.nome {
+    top: 0px;
+    left: 0px;
+    height: 100px; 
+    width: 300px;
+}
+.logo img{
+    height: 100px; 
+    width: 300px;
+}
+@media (max-width: 500px) {
+	#logo {
+	  font-size: 1em;
+	}
+}
+.foto span{
+    display: flex;
+    height: 600px;
+    position: relative;
+    max-width: none;
+    visibility: visible;
+    border-top: none;
+    background-image: url("https://www.istitutobellini.it/2020/wp-content/uploads/2020/02/EDIT_GIA09516.jpg");
+}
+
+.foto h1 {
+    position: absolute;
+    text-transform: uppercase;
+    left: 120px;
+    top: 120px;
+    font-size: 200%;
+    width: 100%;
+    font-family: Arial,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+h1 p{
+    color: white;
+    margin: 0px;
+}
+h1 a{
+    color: white;
+}
+h1 strong{
+    display: inline;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 0.6);
+}
+#link {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    height: 90px;
+    line-height: 20px;
+}
+#link a {
+    margin: 15px;
+}
+#botton {
+    border: 2px solid;
+    border-radius: 2px;
+    padding: 9px;
+    font-size: 16px;
+}
+#botton:hover {
+    background-color: white;
+    color: black;
+}
+#titolo h3{
+    display: flex;
+    font-family: 'Arial';
+    top: 50px;
+    width: 94%;
+    max-width: 85%;
+    margin: auto auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#scorrimento img{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 3em 0;
+    margin-inline-start: 1em;
+    margin-block-end: 1em;
+}
+
+#comunicazioni div{
+    display: flex;
+    width: 94%;
+    max-width: 85%;
+    margin: auto auto;
+    flex-direction: column;
+}
+
+#comunicazioni h4{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    max-width: 85%;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #919191;
+}
+
+#all_comunicazioni h4{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    max-width: 85%;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+#icon_1 {
+    color:black;
+    border-color:black;
+    font-size:40px;
+    line-height:40px;
+}
+
+.offerta h3{
+    font-weight: normal;
+    text-transform: none;
+    font-family: 'roboto', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+    top: -3px;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+}
+
+#rosso {
+    background-color: #af2121;
+    padding: 60px;
+    min-height: 300px;
+    vertical-align: top;
+}
+#grigio {
+    background-color: #707070;
+    min-height: 300px;
+    vertical-align: top;
+    padding: 30px 30px 30px 30px;
+}
+#blu {
+    background-color: #6694af;
+    padding: 60px;
+    min-height: 300px;
+    vertical-align: top;
+}
+#secondo {
+    background-color: #f4f4f4;
+    padding: 60px;
+    min-height: 300px;
+    vertical-align: top;
+}
+#secondo h3, #bianco h3 {
+    color: #222222;
+}
+#bianco {
+    background-color: #ffffff;
+    padding: 60px;
+    min-height: 300px;
+    vertical-align: top;
+}
+.orientamento {
+    height: 500px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-image: url(https://www.istitutobellini.it/2020/wp-content/uploads/2020/02/EDIT_DSC05485.jpg);
+    background-attachment: scroll;
+    background-position: bottom left;
+}
+
+.orientamento h1{
+    padding-bottom: 0px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'roboto', 'Helvetica';
+    margin-top: 0;
+    width: 100%;
+    clear: both;
+    display: block;
+    position: relative;
+    align-items: center;
+    left: 50px;
+    top: 100px;
+}
+.orientamento #botton{
+    background-color: #B02B2C;
+    border-color: #B02B2C;
+    border-style: ridge;
+    border: 2px solid;
+    border-radius: 2px;
+    padding: 15px 30px 13px;
+    font-size: 16px;
+    min-width: 10px;
+    float: left;
+    top: 60px;
+    left: 50px;
+    display: block;
+    margin: 3px 0;
+    line-height: 1.2em;
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media (max-width: 500px) {
+    header {
+        height: 300px;
+        line-height: 1.2;
+    }
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.attivita {
+    display: flex;
+    justify-content: space-between;
+}
+.attivita div {
+    flex-grow: 1;
+    padding: 20px;
+}
+@media (max-width: 500px) {
+    .attivita {
+      flex-direction: column;
+    }
+}
+.offerta {
+    display: flex;
+    justify-content: space-between;
+}
+.offerta div {
+    flex-grow: 1;
+    padding: 20px;
+}
+@media (max-width: 500px) {
+    .offerta {
+      flex-direction: column;
+    }
+}
